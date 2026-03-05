@@ -7,8 +7,8 @@ Key features:
 3. Uses Extended Thinking mode with Opus 4.6
 
 Outputs:
-1. search_res_10_opus46_chunked_judgments.json - formatted judgment ratings
-2. search_res_10_opus46_chunked_llm_responses.json - full LLM responses with thinking
+1. {input_name}_opus46_chunked_judgments.json - formatted judgment ratings
+2. {input_name}_opus46_chunked_llm_responses.json - full LLM responses with thinking
 """
 
 import boto3

@@ -1,12 +1,12 @@
 """
-Generate judgments for search_res.json using Claude Extended Thinking mode.
+Generate judgments using Claude Extended Thinking mode.
 
 Uses ThreadPoolExecutor for concurrent API calls with extended thinking enabled.
 Note: Extended thinking is incompatible with temperature setting.
 
 Outputs (for each model):
-1. search_res_{model}_thinking_judgments.json - formatted judgment ratings (0-1 scale)
-2. search_res_{model}_thinking_llm_responses.json - full LLM responses with thinking
+1. {input_name}_{model}_thinking_judgments.json - formatted judgment ratings (0-1 scale)
+2. {input_name}_{model}_thinking_llm_responses.json - full LLM responses with thinking
 """
 
 import boto3
